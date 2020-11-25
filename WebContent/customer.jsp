@@ -37,11 +37,11 @@ ResultSet resultSet = null;
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
  function insertconfirmComplete() {
-	 
+
 		var answer=confirm("デーダ入力したいですか？");
 		if (answer==true)
 		  {
@@ -53,7 +53,7 @@ ResultSet resultSet = null;
 		  }
 		}
 function updateconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを更新したいですか？");
 	if (answer==true)
 	  {
@@ -65,7 +65,7 @@ function updateconfirmComplete() {
 	  }
 	}
 function deleteconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを削除したいですか？");
 	if (answer==true)
 	  {
@@ -88,13 +88,13 @@ function deleteconfirmComplete() {
    text-align: center;
 }
     </style>
- 
+
 </head>
  <body bgcolor="grey">
   <p align="left"><input type="button" value="Back" onClick="location.href='menu.jsp'"></p>
     <h2><font color="blue" font size="3"><p  align="right"id="RealtimeClockArea"></p></font></h2>
     <center><h1><strong><font color="lightblue">お客様一連情報</font></strong></h1></center>
- 
+
 <table width="300px" height="300px"  align="center" cellpadding="5" cellspacing="5" border="1" >
 <tr align="center" bgcolor="#A52A2A">
 <td> SINO</td>
@@ -139,7 +139,7 @@ e.printStackTrace();
 %>
 </table>
 <footer class="footer">
- <p align="center">CopyRight@aljkanshuu</p>
+ <p align="center">CopyRight@baranikanshuu</p>
 </footer>
 </body>
 </html>

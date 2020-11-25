@@ -16,13 +16,13 @@
    text-align: center;
 }
     </style>
- 
+
 </head>
 <body background="C:\Users\barani mgmg\Desktop\Testing\Testing\termsandcondition.png">
 <h1><center>Terms And Condition </center></h1>
 <p style="font-family: times, serif; font-size:14pt; font-style:Cursive";>
 <p align="justify">
- 
+
 SDL PLC ("SDL") AND ITS SUBSIDIARIES MAINTAIN THIS WEBSITE AS A SERVICE TO ITS CUSTOMERS, SHAREHOLDERS AND OTHER INTERESTED PARTIES. BY USING ANY WEBSITE OWNED AND OPERATED BY SDL PLC OR ITS AFFILIATES, YOU AGREE TO COMPLY WITH AND BE BOUND BY THE FOLLOWING TERMS OF USE, WHICH MAY CHANGE AT ANY TIME. IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS BELOW, PLEASE DO NOT USE THIS SITE OR ANY OF ITS PAGES.
 
 USE OF MATERIALS ON THE SDL WEBSITE
@@ -64,13 +64,13 @@ THESE TERMS AND CONDITIONS ARE GOVERNED BY AND TO BE CONSTRUED IN ACCORDANCE WIT
 <p align="center">
 <input type="submit" name="submit" value="AGREE TERMS AND CONDITION" />
 <footer class="container-fluid">
-  <p align="center">CopyRight@aljkanshuu</p>
+  <p align="center">CopyRight@baranikanshuu</p>
 </footer>
 </body>
 </p>
 <p>
 <footer class="footer">
- <p align="center">CopyRight@aljkanshuu</p>
+ <p align="center">CopyRight@baranikanshuu</p>
 </footer>
 
 </body>

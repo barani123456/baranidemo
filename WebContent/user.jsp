@@ -23,7 +23,7 @@ ResultSet resultSet = null;
 %>
 <!DOCTYPE html>
 <html>
- 
+
 <head>
 <meta charset="UTF-8">
  <title>Insert title here</title>
@@ -32,7 +32,7 @@ ResultSet resultSet = null;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 function updateconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを更新したいですか？");
 	if (answer==true)
 	  {
@@ -44,7 +44,7 @@ function updateconfirmComplete() {
 	  }
 	}
 function deleteconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを削除したいですか？");
 	if (answer==true)
 	  {
@@ -65,7 +65,7 @@ function showClock1() {
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
 </script>
@@ -75,9 +75,9 @@ function showClock1() {
     <p align="right"><input type="button" value="ログアウト" onClick="location.href='logout.jsp'"></p>
  <center><h1><font color="blue">ユーザー情報</font></h1></center>
 <br>
-<h4><center> <input style="margin:15px" type="button" value="ADD USER" onClick="location.href='adduser.jsp'"> 
+<h4><center> <input style="margin:15px" type="button" value="ADD USER" onClick="location.href='adduser.jsp'">
 <input type="button" value="CUSTOMER RECORD DISPLAY" onClick="location.href='customer.jsp'">
-<br><br> 
+<br><br>
 
 <div class="container">
 <form class="form-inline" method="post" action="search.jsp">
@@ -86,9 +86,9 @@ function showClock1() {
 </form>
 </div>
 </center>
-<br><br><br> 
+<br><br><br>
 <table width="300px" height="300px"  align="center" cellpadding="5" cellspacing="5" border="1" >
-<tr align="center" bgcolor="#A52A2A"> 
+<tr align="center" bgcolor="#A52A2A">
 <td>SINO </td>
 <td> Fullname </td>
 <td> Email </td>
@@ -97,7 +97,7 @@ function showClock1() {
 <td> Username</td>
 <td> Password </td>
 <td> InformationService </td>
- 
+
 <td> <marquee scrollamount="2.5"><mark>更新 </mark></marquee></td>
 <td><marquee scrollamount="2.5"><mark> 削除 </mark></marquee></td>
 
@@ -119,8 +119,8 @@ while(resultSet.next()){
 <td><%=resultSet.getString("phonenumber") %></td>
 <td><%=resultSet.getString("username") %></td>
 <td><%=resultSet.getString("password") %></td>
- 
- 
+
+
 <td><a href="customer.jsp">
 
 <%=resultSet.getString("customerinformation") %></a></td>
@@ -140,7 +140,7 @@ connection.close();
 e.printStackTrace();
 }
 %>
-</table>	
- <p align="center">CopyRight@aljkanshuu</p>
+</table>
+ <p align="center">CopyRight@baranikanshuu</p>
  </body>
 </html>

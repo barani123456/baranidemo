@@ -92,7 +92,7 @@
 		</center>
 	</form>
 	<p>
-		<b>Posted by:従業員支援サービス 
+		<b>Posted by:従業員支援サービス
 	</p>
 	<b>Contact information:</b>
 	<a href="https://www.al-j.co.jp/"><b>www.al-j.co.jp/</b></a>
@@ -104,7 +104,7 @@
 	<br>
 	<br>
 	<br>
-	<center>CopyRight@aljkanshuu</center>
+	<center>CopyRight@baranikanshuu</center>
 
 </body>
 </html>

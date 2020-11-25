@@ -25,7 +25,7 @@
 }
  </style>
 
-<script ="javascript"> 
+<script ="javascript">
 function showClock1() {
 	   var nowdate  = new Date();
 	   var year = nowdate.getFullYear();     // 年(4桁の西暦)
@@ -36,68 +36,68 @@ function showClock1() {
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
 function validate()
-{ 
+{
  var fullname = document.form.fullname.value;
  var email = document.form.email.value;
  var address = document.form.address.value;
  var phonenumber = document.form.phonenumber.value;
- var username = document.form.username.value; 
+ var username = document.form.username.value;
  var password = document.form.password.value;
  var customerinformation = document.form.customerinformation.value;
- 
+
  if (fullname==null || fullname.trim()=="")
- { 
- alert("Full Name can't be blank"); 
- return false; 
+ {
+ alert("Full Name can't be blank");
+ return false;
  }
  else if (email==null || email.trim()=="")
- { 
- alert("Email can't be blank"); 
- return false; 
+ {
+ alert("Email can't be blank");
+ return false;
  }
  else if (address==null || address.trim()=="")
- { 
- alert("Address can't be blank"); 
- return false; 
+ {
+ alert("Address can't be blank");
+ return false;
  }
  else if (phonenumber==null || phonenumber.trim()=="")
- { 
- alert("Phonenumber can't be blank"); 
- return false; 
+ {
+ alert("Phonenumber can't be blank");
+ return false;
  }
  else if (username==null || username.trim()=="")
- { 
- alert("userName can't be blank"); 
- return false; 
+ {
+ alert("userName can't be blank");
+ return false;
  }
  else if(password.length<6)
- { 
- alert("Password must be at least 6 characters long."); 
- return false; 
- } 
+ {
+ alert("Password must be at least 6 characters long.");
+ return false;
+ }
  else if (customerinformation==null || customerinformation=="")
- { 
-	 alert("customerinformation can't be blank"); 
- return false; 
- } 
+ {
+	 alert("customerinformation can't be blank");
+ return false;
+ }
  else {
      document.register.submit(); // allow submit
  }
- } 
- 
-</script> 
+ }
+
+</script>
 </head>
 <body background="C:\Users\barani mgmg\Desktop\Testing\Testing\register.jpg">
    <b><h2 align="right"><font color="blue" font size="4"> <p class="glyphicon glyphicon-time"  id="RealtimeClockArea"></p></font></h2></b>
- <h1><center><font color="green"> 従業員登録フォーム</font> </center></h1> 
+ <h1><center><font color="green"> 従業員登録フォーム</font> </center></h1>
  <MARQUEE ONMOUSEOVER="this.stop()" ONMOUSEOUT="this.start()" BEHAVIOR="alternate">
 <b><font color="blue" font size="4"><b>ファマトーに入力してください</b></font>
  </MARQUEE>
- <br> 
+ <br>
  <br>
 	<br>
 	<br>
@@ -136,20 +136,20 @@ function validate()
       <option value = "User">User Information</option>
      <option value = "Employee"> Employee Information</option>
      <option value = "Customer"> Customer Information</option>
-     </select>               
+     </select>
  </td>
  </tr>
  </table>
  <br>
  <center>
- <input style="margin:10px;width: 6%;height: 40%;border-radius: 3px;background-color:blue;font-weight:bold;color:white;" type="submit" value="Register" onclick='validate()'></input>  
+ <input style="margin:10px;width: 6%;height: 40%;border-radius: 3px;background-color:blue;font-weight:bold;color:white;" type="submit" value="Register" onclick='validate()'></input>
  <input style="margin:10px;width: 6%;height: 40%;border-radius: 3px;background-color:grey;font-weight:bold;color:white;"
   type="reset" value="Reset"></input>
   <input style="margin:10px;width: 6%;height: 40%;border-radius: 3px;background-color:#C0C0C0;font-weight:bold;color:white;" type="button" value="Back" onClick="location.href='index.jsp'">
   </center>
 </form>
  <footer class="footer">
- <p>CopyRight@aljkanshuu</p>
+ <p>CopyRight@baranikanshuu</p>
 </footer>
  </body>
 </html>

@@ -112,7 +112,7 @@
 		</font>
 	</div>
 	<footer class="footer">
-		<p align="center">copyRight@aljkanshuu</p>
+		<p align="center">CopyRight@baranikanshuu</p>
 	</footer>
 </body>
 </html>

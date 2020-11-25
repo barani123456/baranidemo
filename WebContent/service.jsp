@@ -17,21 +17,21 @@
       background-color: lightgrey;
       height: 100%;
     }
-    
+
     /* Set black background color, white text and some padding */
     footer {
       background-color: blue;
       color: white;
       padding: 15px;
  	}
-    
+
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
         padding: 15px;
       }
-      .row.content {height: auto;} 
+      .row.content {height: auto;}
     }
   </style>
   </head>
@@ -46,11 +46,11 @@
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
 </script>
-  <body background="C:\Users\barani mgmg\Desktop\Testing\Testing\service1.jpg">  
+  <body background="C:\Users\barani mgmg\Desktop\Testing\Testing\service1.jpg">
 <form action="output.jsp" method="post">
  <h2><font color="blue" font size="3"><p align="left"id="RealtimeClockArea"></p></font></h2>
 <p align="left"><input type="button" value="Back" onClick="location.href='menu.jsp'"></p>
@@ -85,7 +85,7 @@
       Planning projects is easier when you can organize everything in a visual way. Create customizable workflows, see who’s working on what, assign teammates to new tasks, set due dates, and prioritize with color-coded labels.
       </p>
       <br><br>
-      
+
       <h4><small>RECENT POSTS</small></h4>
       <hr>
       <h2>Officially Blogging</h2>
@@ -101,14 +101,14 @@
         </div>
         <button type="submit" name="sei" class="btn btn-success">Submit</button>
         <input type="submit" value="次へ">
-       
+
       </form>
       <br><br>
      </div>
     </div>
   </div>
  <footer class="container-fluid">
-  <p align="center">CopyRight@aljkanshuu</p>
+  <p align="center">CopyRight@baranikanshuu</p>
 </footer>
 
 </body>

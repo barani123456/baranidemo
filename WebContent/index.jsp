@@ -75,7 +75,7 @@ function showClock1() {
 	<br>
 	<font color="blue">Already account!Please Login!!</font>
 	<footer class="footer">
-		<p align="center">CopyRight@aljkanshuu</p>
+		<p align="center">CopyRight@baranikanshuu</p>
 	</footer>
 </body>
 </html>

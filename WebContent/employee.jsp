@@ -37,12 +37,12 @@ ResultSet resultSet = null;
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
- 
+
 function updateconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを更新したいですか？");
 	if (answer==true)
 	  {
@@ -54,7 +54,7 @@ function updateconfirmComplete() {
 	  }
 	}
 function deleteconfirmComplete() {
-	 
+
 	var answer=confirm("デーダを削除したいですか？");
 	if (answer==true)
 	  {
@@ -90,7 +90,7 @@ function deleteconfirmComplete() {
 <td>COUNTRY</td>
 <td>UPDATE</td>
 <td>DELETE</td>
- 
+
 </tr>
 <%
 try{
@@ -122,7 +122,7 @@ e.printStackTrace();
 %>
 </table>
 <footer class="footer">
-  CopyRight@aljkanshuu 
+  CopyRight@baranikanshuu
 </footer>
 </body>
 </html>

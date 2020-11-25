@@ -9,9 +9,9 @@
 <style>
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content {height: 1500px}
-    
+
     /* Set gray background color and 100% height */
-    
+
     /* Set black background color, white text and some padding */
     .footer {
    position: fixed;
@@ -24,7 +24,7 @@
 }
     </style>
 
-<script> 
+<script>
 function showClock1() {
 	   var nowdate  = new Date();
 	   var year = nowdate.getFullYear();     // 年(4桁の西暦)
@@ -35,60 +35,60 @@ function showClock1() {
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
 function validate()
-{ 
+{
  var fullname = document.form.fullname.value;
  var email = document.form.email.value;
  var address = document.form.address.value;
  var phonenumber = document.form.phonenumber.value;
- var username = document.form.username.value; 
+ var username = document.form.username.value;
  var password = document.form.password.value;
  var customerinformation = document.form.customerinformation.value;
- 
+
  if (fullname==null || fullname=="")
- { 
- alert("Full Name can't be blank"); 
- return false; 
+ {
+ alert("Full Name can't be blank");
+ return false;
  }
  else if (email==null || email=="")
- { 
- alert("Email can't be blank"); 
- return false; 
+ {
+ alert("Email can't be blank");
+ return false;
  }
  else if (address==null || address=="")
- { 
- alert("Address can't be blank"); 
- return false; 
+ {
+ alert("Address can't be blank");
+ return false;
  }
  else if (phonenumber==null || phonenumber=="")
- { 
- alert("Phonenumber can't be blank"); 
- return false; 
+ {
+ alert("Phonenumber can't be blank");
+ return false;
  }
  else if (username==null || username=="")
- { 
- alert("userName can't be blank"); 
- return false; 
+ {
+ alert("userName can't be blank");
+ return false;
  }
  else if(password.length<6)
- { 
- alert("Password must be at least 6 characters long."); 
- return false; 
- } 
+ {
+ alert("Password must be at least 6 characters long.");
+ return false;
+ }
  else if (customerinformation==null || customerinformation=="")
- { 
-	 alert("customerinformation can't be blank"); 
- return false; 
- } 
- } 
-</script> 
+ {
+	 alert("customerinformation can't be blank");
+ return false;
+ }
+ }
+</script>
 </head>
 <body bgcolor="lightgrey">
  <h2><font color="blue" font size="3"><p  align="right" id="RealtimeClockArea"></p></font></h2>
- <h1><center><font color="green">Add User Information</font> </center></h1> 
+ <h1><center><font color="green">Add User Information</font> </center></h1>
  <!-- <MARQUEE ONMOUSEOVER="this.stop()" ONMOUSEOUT="this.start()" BEHAVIOR="alternate">
  <font color="grey" font size="3"><b>ファマトーに入力してください</b></font>
  </MARQUEE> -->
@@ -127,19 +127,19 @@ function validate()
        <option value = "Customer">Customer Information</option>
       <option value = "Guest"> Guest Information</option>
  	<option value = "Company"> Company Information</option>
-     </select>               
+     </select>
  </td>
  </tr>
  </table>
  <br>
  <center>
- <input style="margin:10px" type="submit" value="AddUser"></input>  
+ <input style="margin:10px" type="submit" value="AddUser"></input>
  <input style="margin:10px" type="reset" value="Cancel"></input>
   <input type="button" value="Back" onClick="location.href='user.jsp'">
   </center>
 </form>
  <footer class="footer">
- <p>CopyRight@aljkanshuu</p>
+ <p>CopyRight@baranikanshuu</p>
 </footer>
  </body>
 </html>

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Register</title>
-<script> 
+<script>
 function showClock1() {
 	   var nowdate  = new Date();
 	   var year = nowdate.getFullYear();     // 年(4桁の西暦)
@@ -20,39 +20,39 @@ function showClock1() {
 	}
 	setInterval('showClock1()',1000);
 function validate()
-{ 
+{
  var fullname = document.form.fullname.value;
  var email = document.form.email.value;
- var username = document.form.username.value; 
+ var username = document.form.username.value;
  var password = document.form.password.value;
-  
+
  if (fullname==null || fullname=="")
- { 
- alert("Full Name can't be blank"); 
- return false; 
+ {
+ alert("Full Name can't be blank");
+ return false;
  }
  else if (email==null || email=="")
- { 
- alert("Email can't be blank"); 
- return false; 
+ {
+ alert("Email can't be blank");
+ return false;
  }
- 
+
  else if (username==null || username=="")
- { 
- alert("userName can't be blank"); 
- return false; 
+ {
+ alert("userName can't be blank");
+ return false;
  }
  else if(password.length<6)
- { 
- alert("Password must be at least 6 characters long."); 
- return false; 
- } 
- } 
-</script> 
+ {
+ alert("Password must be at least 6 characters long.");
+ return false;
+ }
+ }
+</script>
 </head>
 <body bgcolor="lightgrey">
   <h2><font color="blue" font size="3"><p  align="right"id="RealtimeClockArea"></p></font></h2>
-  <h1><center><font color="blue"> ユーザー情報の追加フォーム</font> </center></h1> 
+  <h1><center><font color="blue"> ユーザー情報の追加フォーム</font> </center></h1>
  <MARQUEE ONMOUSEOVER="this.stop()" ONMOUSEOUT="this.start()" BEHAVIOR="alternate">
  <font color="grey" font size="3"><b>ファマトーに入力してください</b></font>
  </MARQUEE>
@@ -67,7 +67,7 @@ function validate()
  <td>メール</td>
  <td><input type="text" name="email" /></td>
  </tr>
- 
+
 <tr bgcolor="#DEB887">
  <td>ユーザー名</td>
  <td><input type="text" name="username" /></td>
@@ -79,9 +79,9 @@ function validate()
  </table>
  <br>
  <center>
- <input type="submit" value="Add Customer"></input>  
+ <input type="submit" value="Add Customer"></input>
  <input type="reset" value="Reset"></input>
- 
+
   </center>
 </form>
  	<br>
@@ -89,6 +89,6 @@ function validate()
 	<br>
 	<br>
 	<br>
-	<center>CopyRight@aljkanshuu</center>
+	<center>CopyRight@baranikanshuu</center>
  </body>
 </html>
