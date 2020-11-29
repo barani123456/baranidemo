@@ -9,6 +9,7 @@
 <script>
 function showClock1() {
 	   var nowdate  = new Date();
+	  /*  var year = nowdate.getFullYear();     // 年(4桁の西暦) */
 	   var year = nowdate.getFullYear();     // 年(4桁の西暦)
 	   var mon  = nowdate.getMonth() + 1;    // 月(1～12)
 	   var date = nowdate.getDate();
