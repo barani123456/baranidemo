@@ -14,6 +14,7 @@
 		    return true;
 		  }
 		else
+
 		  {
 		    return false;
 		  }
@@ -28,7 +29,7 @@
 	   var nowSec  = nowdate.getSeconds();
 		var msg =  year + "年" + mon  + "月" + date + "日" + "　" + nowHour + ":"+ nowMin + ":" + nowSec ;
 	   document.getElementById("RealtimeClockArea").innerHTML = msg;
-	 
+
 	}
 	setInterval('showClock1()',1000);
 </script>
